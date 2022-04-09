@@ -1,0 +1,560 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Әсел дәріхана</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Әсел аптека web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery-1.11.1.min.js"></script>
+<!-- Custom Theme files -->
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<!-- Custom Theme files -->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800' rel='stylesheet' type='text/css'>
+<!-- Add fancyBox main JS and CSS files -->
+<script src="js/jquery.magnific-popup.js" type="text/javascript"></script>
+<link href="css/magnific-popup.css" rel="stylesheet" type="text/css">
+		<script>
+			$(document).ready(function() {
+				$('.popup-with-zoom-anim').magnificPopup({
+					type: 'inline',
+					fixedContentPos: false,
+					fixedBgPos: true,
+					overflowY: 'auto',
+					closeBtnInside: true,
+					preloader: false,
+					midClick: true,
+					removalDelay: 300,
+					mainClass: 'my-mfp-zoom-in'
+			});
+		});
+		</script>
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+</head>
+<body>
+<div class="header">
+	<div class="logo"><a href="index.html"><img src="images/logo.png" alt=""/></a></div>
+	<div class="header-home">
+	<div class="fixed-header">
+	   <div class="h_menu4"><!-- start h_menu4 -->
+				<a class="toggleMenu" href="#">Меню</a>
+				<ul class="nav">
+					<li class="active"><a href="#home" class="scroll">Негізгі</a></li>
+				    <li><a href="#about" class="scroll">Мәлімет</a></li>
+					<li><a href="#benefit" class="scroll">Артықшылығымыз</a></li>
+					<li><a href="#test" class="scroll">Отзывтар</a></li>
+					<li><a href="#buy" class="scroll">Сатып алу</a></li>
+					<li><a href="#contact" class="scroll">Байланыс</a></li>
+					<!-- <li><a href="blog.html">Блог</a></li> -->
+				</ul>
+				<script type="text/javascript" src="js/nav.js"></script>
+				<script type="text/javascript">
+					jQuery(document).ready(function($) {
+						$(".scroll").click(function(event){		
+							event.preventDefault();
+							$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+						});
+					});
+					</script>		
+				 <!--script-->
+		<script>
+			$(document).ready(function(){
+				$(".nav li a").click(function(){
+					$(this).parent().addClass("active");
+					$(this).parent().siblings().removeClass("active");
+				});
+			});
+		</script>
+			<!-- script-for sticky-nav -->
+		<script>
+		$(document).ready(function() {
+			 var navoffeset=$(".header-home").offset().top;
+			 $(window).scroll(function(){
+				var scrollpos=$(window).scrollTop(); 
+				if(scrollpos >=navoffeset){
+					$(".header-home").addClass("fixed");
+				}else{
+					$(".header-home").removeClass("fixed");
+				}
+			 });
+			 
+		});
+		</script>
+		<!-- /script-for sticky-nav -->
+        </div><!-- end h_menu4 -->
+       </div>
+     </div>
+     <div class="header_bottom" id="home">
+       <div class="container">
+	     	<div class="col-sm-7 header_left">
+	     		<span> </span>
+	     	</div>
+	     	<div class="col-sm-5 header_right">
+	     	   <h1>Біздің дәрілермен денсаулығыңызға <span class="m_1">күтім жасаңыз</span></h1>	
+	     	   <div class="header_box">
+	     	   	<h2>Бүгін көріңіз</h2>
+	     	      <form>
+					<input type="text" name="email" value="ФИО" onfocus="if (this.value == 'ФИО') {this.value = '';}" onblur="if (this.value == '') {this.value = 'ФИО';}" />
+					<input type="text" name="email" value="Email" onfocus="if (this.value == 'Email') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Email';}" />
+					  <label class="fa-btn btn2 btn-2 btn-1e"><input type="submit" value="Тапсырыс беру"></label>
+					  <ul class="form_lock">
+					  	<li><i class="lock"> </i></li>
+					  	<li class="lock_desc"><p>Уайымдамаңыз, сіздің поштаңыз бізде қауіпсіз сақталады.
+							Біз спамды сіз сияқты жек көреміз. </p></li>
+						<div class="clearfix"> </div>
+					  </ul>
+			      </form>
+	     	</div>
+       </div>
+    </div>
+  </div>
+</div>
+<div class="about" id="about">
+ <div class="about_top">
+	<h2>Әсел дәріханасы туралы</h2>
+	<div class="sm_hr"></div>
+	<h3 class="m_10">Тапсырыс қабылдап <span class="m_2">жылдам жеткізіп береміз</span>!</h3>
+	<p class="m_8">Ауданда жаңадан ашылған ең заманауы дәріханалардың бірі. Заман талабына сай құралдарды қолданып қызмет көрсетеміз. 
+		Біздің дәріхана Сарыағаш ауданындағы жеткізіп беру қызметі бар жалғыз дәріханалардың бірі болып саналады. Брендіміз лицензияланған, 
+		барлық дәрілер сертификатталған</p>
+ </div>
+ <div class="about_bottom">
+ 	<h4>Біздегі <span class="m_2">Эксклюзивті</span> Өнімдер</h4>
+ 	<div class="about_box">
+ 		<div class="container">
+ 		<div class="col-sm-4 grid_8 grid_7">
+ 			<div class="view view-fifth">
+                   <img src="images/p1.jpg" class="img-responsive" alt=""/>
+                    <div class="mask">
+                      <div class="mask1">
+                          <a class="popup-with-zoom-anim" href="#small-dialog1"> <div class="info"><img src="images/search.png" alt=""/></div></a>
+		                     <div id="small-dialog1" class="mfp-hide">
+							   <div class="pop_up1">
+							   	 <h3>Ксефокам </h3>
+								  <img src="images/p1.jpg" class="img-responsive" alt=""/>
+								 <p>Осынын құрамында осы осы, тағы да бірбәлелер бар. Олар осы осы бір нәрсені емдеуге көмектесіп қана қоймай оның алдын алуға және симптомдарын жоюға көмектеседі.</p>
+								</div>
+							 </div>
+                        </div>
+                     </div>
+            </div>
+ 		</div>
+ 		<div class="col-sm-4 grid_8 grid_7">
+ 			<div class="view view-fifth">
+                   <img src="images/p2.jpg" class="img-responsive" alt=""/>
+                    <div class="mask">
+                      <div class="mask1">
+                          <a class="popup-with-zoom-anim" href="#small-dialog2"> <div class="info"><img src="images/search.png" alt=""/></div></a>
+		                     <div id="small-dialog2" class="mfp-hide">
+							   <div class="pop_up1">
+							   	 <h3>сульфокамфокаин  </h3>
+								  <img src="images/p2.jpg" class="img-responsive" alt=""/>
+								 <p>Осынын құрамында осы осы, тағы да бірбәлелер бар. Олар осы осы бір нәрсені емдеуге көмектесіп қана қоймай оның алдын алуға және симптомдарын жоюға көмектеседі.</p>
+								</div>
+							 </div>
+                        </div>
+                     </div>
+            </div>
+ 		</div>
+ 		<div class="col-sm-4 grid_8">
+ 			<div class="view view-fifth">
+                   <img src="images/p3.jpg" class="img-responsive" alt=""/>
+                    <div class="mask">
+                      <div class="mask1">
+                          <a class="popup-with-zoom-anim" href="#small-dialog3"> <div class="info"><img src="images/search.png" alt=""/></div></a>
+		                     <div id="small-dialog3" class="mfp-hide">
+							   <div class="pop_up1">
+							   	 <h3>Гордокс </h3>
+								  <img src="images/p3.jpg" class="img-responsive" alt=""/>
+								 <p>Осынын құрамында осы осы, тағы да бірбәлелер бар. Олар осы осы бір нәрсені емдеуге көмектесіп қана қоймай оның алдын алуға және симптомдарын жоюға көмектеседі.</p>
+								</div>
+							 </div>
+                        </div>
+                     </div>
+            </div>
+ 		</div>
+ 	  </div>
+ 	</div>
+ </div>
+</div>
+<div class="benefit" id="benefit">
+	<div class="container">
+		<ul class="benefit_head">
+			<li class="benefit_head-left">
+				<h3>Біздің<br>плюс</h3>
+			</li>
+			<li class="benefit_head-right">
+				<p>Заманауи интернет-сервистер қазіргі заман талабы. Дәріханаға шығуға мүмкіндігіңіз болмаған кезде, бізде сіз үшін жеткізіп беру қызметі табылады</p>
+			</li>
+			<div class="clearfix"> </div>
+		</ul>
+		<div class="benefit_box">
+		<p class="m_3">Қызыргы кезде аурулар көбеюіне байланысты, дәріханаларға деген талап асып келеді. Бірнеше айларға созылған
+			карантин және төтенше жағдайлар бізді ақпараттық технологиялармен тығыз байланыстырды. Осының арқасында біз онлайн 
+			қызметтерді көп қолдана бастадық. Карантин кезінде ауру жұқтыру қауіпі ең көп сол дәріханаларда байқалды, себебі адамдар ауруға 
+			шалдыққан кезде, дәрігерге жүгінбей үй жағдайында өзін емдеуге әрекет етті.
+		</p>
+				   <p class="m_4">Осының арқасынан ауру адам дәріханаға келген басқа да адамдарға ауруын жұқтырып оның таралуына себеп болды. 
+					   Біздің бірінші мақсатымыз осы нәрсеге жол бермеу болғандықтан, біз заман талабына сай дамыған технологияларды қолданып 
+					   өз дәріханамыз және оған Интернет желісінде қолайлы сайт аштық. Бұл бізге жоғарыда айтылған жағдайға жол бермеуге 
+					   мүмкіндік береді. Ауру адам өз үйінде отырып, керекті дәрі дәрмекке тапсырыс бере алады.
+				   </p>
+			       <p class="m_5">Төменде көрсетілгендер біздің сервисіміздің <span class="m_2">артықшылықтары :</span></p>
+        <div class="benefit_grid">
+            <div class="benefit_box-left">
+		                <ul>
+		                   <li><a href="">Заман талабына сай</a></li>
+		                    <li><a href="">Эксклюзивті өнімдер бар</a></li>
+		                    <li><a href="">Барлық стандарттарға жауап береді</a></li>
+		                    <li><a href="">Веб-парақшамыздың қызметі</a></li>
+		                    <li><a href="">Жеткізіп беру мүмкіндігі</a></li>
+		                </ul>
+	        </div>
+	       <div class="benefit_box-left span1">
+		                <ul>
+		                   <li><a href="">Заман талабына сай</a></li>
+		                    <li><a href="">Эксклюзивті өнімдер бар</a></li>
+		                    <li><a href="">Барлық стандарттарға жауап береді</a></li>
+		                    <li><a href="">Веб-парақшамыздың қызметі</a></li>
+		                    <li><a href="">Жеткізіп беру мүмкіндігі</a></li>
+		                </ul>
+	       </div>
+	       <div class="clearfix"> </div>
+	      </div>
+      </div>
+	</div>
+  </div>
+<div class="product">
+	<div class="container">
+		<ul class="product_grid">
+			<li class="product_grid-left">
+				<p>Қазіргі таңда адамдар дәрі-дәрмектерді адамдар дәрігердің нұсқауынсыз қолданады. 
+					Кейде бұл өкінішті жағдайға әкеп соғуы мүмкін. Осыған жол бермеу үшін біз тегін кеңес береміз.
+				</p>
+			</li>
+			<li class="product_grid-right">
+				<h3>Біздің өнімді <br>қалай қолданады</h3>
+			</li>
+			 <div class="clearfix"> </div>
+		</ul>
+	<h3 class="m_10">Біздің сайтымызда сұраныс қалдырып, <span class="m_2">тегін кеңес алыңыз </span>!</h3>
+	<p class="m_8 m_9">Эксклюзивті өнімдеріміз туралы қысқаша мәлімет беріп өтейік. Олар: КСЕФОКАМ, СУЛЬФОКАМФОКАИН, ГОРДОКС өнімдері. Бұл дәрі-дәрмектеріміз өз сыныбындағы 
+		ең жақсы әсер ету күшіне ие, қазіргі заман қол жеткізген медицина және фармокология ғылымдарының соң жетістіктерінің арқасында қол жеткізілген 
+		жаңа өнімдердің бірі. Олар әр бірі қойылған стандарттардың барлығына жауап береді. Олар туралы қысқаша мәлімет:
+	</p>
+	 <div class="product_box">
+	 	<div class="col-sm-4">
+	 		<div class="product_box1">
+	 			<div class="product_box1-num">1</div>
+	 			<p>Олардың құрамында осы осы, тағы да 
+					бірбәлелер бар. Олар осы осы бір нәрсені 
+				   емдеуге көмектесіп қана қоймай оның 
+				   алдын алуға және симптомдарын жоюға 
+				   көмектеседі.</p>
+       		</div>
+	 	</div>
+	 	<div class="col-sm-4">
+	 		<div class="product_box1">
+	 			<div class="product_box1-num">2</div>
+	 			<p>Олардың құрамында осы осы, тағы да 
+					бірбәлелер бар. Олар осы осы бір нәрсені 
+				   емдеуге көмектесіп қана қоймай оның 
+				   алдын алуға және симптомдарын жоюға 
+				   көмектеседі.</p>
+       		</div>
+	 	</div>
+	 	<div class="col-sm-4">
+	 		<div class="product_box1">
+	 			<div class="product_box1-num">3</div>
+	 			<p>Олардың құрамында осы осы, тағы да 
+					 бірбәлелер бар. Олар осы осы бір нәрсені 
+					емдеуге көмектесіп қана қоймай оның 
+					алдын алуға және симптомдарын жоюға 
+					көмектеседі. 
+				 </p>
+       		</div>
+	 	</div>
+	 	<div class="clearfix"> </div>
+	 </div>
+   </div>
+</div>
+<div class="img_body">
+	<div class="container">
+		<ul class="column_center">
+			<li class="column_center-left">
+				<h3>ауруды жеңіп, жазылыңыз !</h3>
+			</li>
+			<li class="column_center-right">
+				<a href="#" class="fa-btn btn-1 btn-1e btn1">Сапасына<br><span class="btn_desc">Кепілдік береміз</span></a>
+			</li>
+			<div class="clearfix"> </div>
+		</ul>
+	</div>
+</div>
+<div class="index-banner" id="test">
+	<div class="container">
+       	   <div class="wmuSlider example1">
+			   <div class="wmuSliderWrapper">
+				   <article style="position: absolute; width: 100%; opacity: 0;"> 
+				   	 <div class="banner-wrap">
+				   	 	<div class="col-md-6">
+				   	 		<ul class="grid-1">
+				   	 			<li class="grid-1_left">
+				   	 				<img src="images/pic1.jpg" class="img-responsive" alt=""/>
+				   	 			</li>
+				   	 			<li class="grid-1_right">
+				   	 				<p>Өте жақсы,сенімді алдамайды. 
+											Осы жердер дәрі алындар.
+											Дәрілері өте сапалы 
+											бірден әсер етті. 
+											Оны алудан алдын маған 
+											тегін кеңес берілді. 
+											Және жеткізіп беру қызметімен
+											тез жеткізді. 
+											Бағасы да қол жетімді!!!!! 
+											Бір сөзбен айтқанда Зын!!!</p>
+								      <h4><a href="#">Сталкер</a> | Stalker Company</h4>
+				   	 			</li>
+				   	 			<div class="clearfix"> </div>
+				   	 		</ul>
+				   	 	</div>
+				   	 	<div class="col-md-6">
+				   	 		<ul class="grid-1">
+				   	 			<li class="grid-1_left">
+				   	 				<img src="images/pic2.jpg" class="img-responsive" alt=""/>
+				   	 			</li>
+				   	 			<li class="grid-1_right">
+				   	 				<p>Өте жақсы,сенімді алдамайды. 
+										Осы жердер дәрі алындар.
+										Дәрілері өте сапалы 
+										бірден әсер етті. 
+										Оны алудан алдын маған 
+										тегін кеңес берілді. 
+										Және жеткізіп беру қызметімен
+										тез жеткізді. 
+										Бағасы да қол жетімді!!!!! 
+										Бір сөзбен айтқанда Зын!!!</p>
+									<h4><a href="#">Elsa</a> | Frozen Company</h4>
+				   	 			</li>
+				   	 			<div class="clearfix"> </div>
+				   	 		</ul>
+				   	 	</div>
+				   	 	<div class="clearfix"> </div>
+				   	 </div>
+					</article>
+				   <article style="position: relative; width: 100%; opacity: 1;"> 
+				   	  <div class="banner-wrap">
+				   	 	<div class="col-md-6">
+				   	 		<ul class="grid-1">
+				   	 			<li class="grid-1_left">
+				   	 				<img src="images/pic3.jpg" class="img-responsive" alt=""/>
+				   	 			</li>
+				   	 			<li class="grid-1_right">
+				   	 				<p>Өте жақсы,сенімді алдамайды. 
+										Осы жердер дәрі алындар.
+										Дәрілері өте сапалы 
+										бірден әсер етті. 
+										Оны алудан алдын маған 
+										тегін кеңес берілді. 
+										Және жеткізіп беру қызметімен
+										тез жеткізді. 
+										Бағасы да қол жетімді!!!!! 
+										Бір сөзбен айтқанда Зын!!!</p>
+										<h4><a href="#">Fox</a> | 20th century Company</h4>
+				   	 			</li>
+				   	 			<div class="clearfix"> </div>
+				   	 		</ul>
+				   	 	</div>
+				   	 	<div class="col-md-6">
+				   	 		<ul class="grid-1">
+				   	 			<li class="grid-1_left">
+				   	 				<img src="images/pic4.jpg" class="img-responsive" alt=""/>
+				   	 			</li>
+				   	 			<li class="grid-1_right">
+				   	 				<p>Өте жақсы,сенімді алдамайды. 
+										Осы жердер дәрі алындар.
+										Дәрілері өте сапалы 
+										бірден әсер етті. 
+										Оны алудан алдын маған 
+										тегін кеңес берілді. 
+										Және жеткізіп беру қызметімен
+										тез жеткізді. 
+										Бағасы да қол жетімді!!!!! 
+										Бір сөзбен айтқанда Зын!!!</p>
+										<h4><a href="#">Hacker</a> | CityOS Company</h4>
+				   	 			</li>
+				   	 			<div class="clearfix"> </div>
+				   	 		</ul>
+				   	 	</div>
+				   	 	<div class="clearfix"> </div>
+				   	 </div>
+				   </article>
+				   <article style="position: absolute; width: 100%; opacity: 0;">
+				   	<div class="banner-wrap">
+				   	 	<div class="col-md-6">
+				   	 		<ul class="grid-1">
+				   	 			<li class="grid-1_left">
+				   	 				<img src="images/pic5.jpg" class="img-responsive" alt=""/>
+				   	 			</li>
+				   	 			<li class="grid-1_right">
+				   	 				<p>Өте жақсы,сенімді алдамайды. 
+										Осы жердер дәрі алындар.
+										Дәрілері өте сапалы 
+										бірден әсер етті. 
+										Оны алудан алдын маған 
+										тегін кеңес берілді. 
+										Және жеткізіп беру қызметімен
+										тез жеткізді. 
+										Бағасы да қол жетімді!!!!! 
+										Бір сөзбен айтқанда Зын!!!</p>
+										<h4><a href="#">Anonimous</a> | Secret Company</h4>
+				   	 			</li>
+				   	 			<div class="clearfix"> </div>
+				   	 		</ul>
+				   	 	</div>
+				   	 	<div class="col-md-6">
+				   	 		<ul class="grid-1">
+				   	 			<li class="grid-1_left">
+				   	 				<img src="images/pic6.jpg" class="img-responsive" alt=""/>
+				   	 			</li>
+				   	 			<li class="grid-1_right">
+				   	 				<p>Өте жақсы,сенімді алдамайды. 
+											Осы жердер дәрі алындар.
+											Дәрілері өте сапалы 
+											бірден әсер етті. 
+											Оны алудан алдын маған 
+											тегін кеңес берілді. 
+											Және жеткізіп беру қызметімен
+											тез жеткізді. 
+											Бағасы да қол жетімді!!!!! 
+											Бір сөзбен айтқанда Зын!!!</p>
+										<h4><a href="#">Scorpion</a> | MK Company</h4>
+				   	 			</li>
+				   	 			<div class="clearfix"> </div>
+				   	 		</ul>
+				   	 	</div>
+				   	 	<div class="clearfix"> </div>
+				   	 </div> 
+					 </article>
+				 </div>
+				
+                <ul class="wmuSliderPagination">
+                	<li><a href="#" class="">0</a></li>
+                	<li><a href="#" class="">1</a></li>
+                	<li><a href="#" class="wmuActive">2</a></li>
+                </ul>
+            </div>
+            <script src="js/jquery.wmuSlider.js"></script> 
+			  <script>
+       			$('.example1').wmuSlider();         
+   		     </script> 	           	      
+      </div>
+</div>
+<div class="call_grid" id="buy">
+	<div class="container">
+		<div class="col-sm-6 call_grid-left">
+			<h3>Қазір тапсырыс беріп, <br>  <span class="m_1">Ксефокам</span> үшін үлкен жеңілдік алыңыз</h3>
+			<p>Бұл өз сыныбында өте жақсы әсер ететін дәрілердің бірі болып саналып, 
+				бізде эксклюзивті түрде сатылады
+			</p>
+				<h4>Осы дәріні қазір
+				сатып алыңыз және
+				ауруыңызға шек қойыңыз
+				</h4>
+			<a href="#" class="fa-btn btn-1 btn-1e btn2">Сатып алу</a>
+		</div>
+		<div class="col-md-6 call_grid-right">
+			<span> </span>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+</div>
+<div class="contact" id="contact">
+    <div class="col-md-7 contact_left">
+      <div class="grid_3">
+		<ul class="msg">
+			<i class="msg_icon"> </i>
+			<li class="msg_desc"><p>Түркістан об. Сарыағаш ау.<br>
+				Жарты төбе а/о, Шугалов 63<br>
+				Tell: 8702-123-4567<br>
+				Email: <a href="ms.sulhina@gmail.com"> info@asel.com</a></p></li>
+	    </ul>
+	    <ul class="msg msg_grid">
+			<i class="msg_icon"> </i>
+			<li class="msg_desc"><p>Түркістан об. Сарыағаш ау.<br>
+				Жарты төбе а/о, Шугалов 63<br>
+				Tell: 8702-123-4567<br>
+				Email: <a href="ms.sulhina@gmail.com"> info@asel.com</a></p></li>
+	    </ul>
+	  </div>
+	  <div class="grid_4">
+	  	 <h4>Төлемдер қауіпсіз :</h4>
+	  	 <img src="images/paypal.png" class="img-responsive" alt=""/>
+	  </div>
+	  <div class="grid_5">
+	  	 <h4>Дисклеймер :</h4>
+	  	 <p>Біздегі эксклюзивті дәрілерді тек біздің дәріханадан және біздің веб-сайттан ала аласыз. Жалған дәрілерден 
+			   сақ болыңыз. Бізде дәрілер үшін керекті құжаттардар және сериялық номер беріледі. </p>
+	      <p>Жалған дәрілерді бізде қайтарып беруден алдын оны бірінші тексеріп көріңіз. Дәріңіздің шынайы 
+			  немесе жалған екенің ондаға сериялық номерді сонда көрсетілген сілтемеге кіріп тексере аласыздар.
+		  </p>  
+	  </div>
+    </div>
+	<div class="col-md-5 contact_right">
+		<div class="header_box grid_6">
+	     	   	<h3>Байланысу</h3>
+	     	   	  <form method="post" action="contact-post.html">
+					  <input type="text" name="email" value="ФИО" onfocus="if (this.value == 'ФИО') {this.value = '';}" onblur="if (this.value == '') {this.value = 'ФИО';}" />
+					  <input type="text" name="email" value="Email" onfocus="if (this.value == 'Email') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Email';}" />
+					  <input type="text" name="email" value="Тақырып" onfocus="if (this.value == 'Тақырып') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Тақырып';}" />
+					 <textarea value="Message" onfocus="this.value= '';" onblur="if (this.value == '') {this.value = 'Мәтін';}">Мәтін</textarea>
+					  <label class="fa-btn btn2 btn-2 btn-1e btn3"><input type="submit" value="Қоңырау шалу"></label>
+					  <ul class="form_lock">
+					  	<li><i class="lock"> </i></li>
+					  	<li class="lock_desc"><p>Уайымдамаңыз, сіздің поштаңыз бізде қауіпсіз сақталады.
+							Біз спамды сіз сияқты жек көреміз. </p></li>
+						<div class="clearfix"> </div>
+					  </ul>
+			      </form>
+	     	</div>
+	</div> 
+	<div class="clearfix"></div>
+ </div>
+ <div class="footer">
+ 	<div class="container">
+ 		    <div class="copy">
+ 		    	<img src="images/logo.png" alt=""/>
+			    <p>&copy;2022 Сайт авторы <a href="http://portfolios.ru/dodojon" target="_blank">DODOJON</a></p>
+		    </div>
+		    <ul class="footer_social">
+			   <li><a href="#"> <i class="fb"> </i> </a></li>
+			   <li><a href="#"> <i class="pin"> </i> </a></li>
+			   <li><a href="#"> <i class="linkedin"> </i> </a></li>
+			   <li><a href="#"> <i class="google"> </i> </a></li>
+			   <li><a href="#"> <i class="tw"> </i> </a></li>
+		    </ul>
+		 <div class="clearfix"> </div>
+ 	</div>
+ 	<script type="text/javascript">
+						$(document).ready(function() {
+							/*
+							var defaults = {
+					  			containerID: 'toTop', // fading element id
+								containerHoverID: 'toTopHover', // fading element hover id
+								scrollSpeed: 1200,
+								easingType: 'linear' 
+					 		};
+							*/
+							
+							$().UItoTop({ easingType: 'easeOutQuart' });
+							
+						});
+					</script>
+				<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+ </div>
+</body>
+</html>		
